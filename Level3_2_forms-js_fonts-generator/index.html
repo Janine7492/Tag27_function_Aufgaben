@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>Fonts Generator</h1>
+        <label for="size">Font Size</label>
+        <input type="range" id="size" name="size" min="10" max="50" value="16" step="0.5" onchange="changeFontsSize()">
+        <datalist>
+            <option value="10" label="10px"></option>
+            <option value="100" label="100px"></option>
+        </datalist>
+
+        <label for="fontFamily">Font Family</label>
+        <select name="fontFamily" id="fontFamily" onchange="changeFontsSize()">
+            <option value="Bodoni Moda', serif">Bodoni Moda', serif</option>
+            <option value="'Open Sans', sans-serif ">'Open Sans', sans-serif </option>
+            <option value="'Roboto', sans-serif">'Roboto', sans-serif</option>
+            <option value="'Yusei Magic', sans-serif">'Yusei Magic', sans-serif</option>
+        </select>
+
+        <label for="text">Enter text:</label>
+        <input type="text" name="text" id="text" onchange="changeFontsSize()">
+
+        <p id="preview">Vorschau Text</p>
+    </form>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

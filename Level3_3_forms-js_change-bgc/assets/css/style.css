@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    padding: 10rem;
+}
+
+label {
+    background-color: lightgray;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+p {
+    margin-top: 5rem;
+    display: inline-block;
+    background-color: lightgray;
+    line-height: 2;
+    padding: 10px;
+    border-radius: 4px;
+}
